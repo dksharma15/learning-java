@@ -17,16 +17,10 @@ public class transpose {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 brr[i][j] = arr[j][i];
-            }
-        }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
                 System.out.print(brr[i][j]+" ");
             }
             System.out.println();
-        }
-
-        
+        } 
 
         sc.close();
     }
