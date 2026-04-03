@@ -9,7 +9,7 @@ public class indexOf_ComapreTo {
 
        String a = "abc";
        String b = "aba";
-       // what compre to does string1 first char ascii value - string2 first char ascii
+       // what compareTo does string1 first char ascii value - string2 first char ascii
        // if both string same then 0 and moves to next char of string
        /*
        abc      abc     0

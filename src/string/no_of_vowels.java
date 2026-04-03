@@ -18,7 +18,7 @@ public class no_of_vowels {
        
        for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if(vowel(ch)==true) count++;
+            if(vowel(ch)) count++;
        }
        System.out.println(count);
        sc.close();
