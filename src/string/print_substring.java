@@ -14,5 +14,6 @@ public class print_substring {
                 c++;
             }
         }
+        sc.close();
     }
 }
