@@ -11,5 +11,14 @@ public class stringbuilder {
         // function setCharAt();
         sb.setCharAt(3, 'z');
         System.out.println(sb);
+
+        // append();;
+        sb.append(23);
+        System.out.println(sb);
+        sb.append("xyz");
+        System.out.println(sb);
+        char[] arr = {'a','b','c'};
+        sb.append(arr);
+        System.out.println(sb);
     }
 }
